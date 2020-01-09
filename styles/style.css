@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+.Logo {
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+input {
+    background: url("../images/magnifying-glass.png") 2% 50% no-repeat;
+    background-size: 15px;
+    padding-left: 40px;
+    border-radius: 25px;
+    border-width: 0.5px;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.query {
+    width: 512px;
+    height: 40px;
+}
+
+.search {
+    padding: 10px 20px;
+    background-color: #dedfe0;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: .8em;
+}
