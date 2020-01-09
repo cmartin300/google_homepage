@@ -1,10 +1,11 @@
-body {
+.main {
     text-align: center;
 }
 
 .Logo {
     margin-top: 150px;
     margin-bottom: 30px;
+    margin-left: 125px;    
 }
 
 input {
@@ -30,4 +31,43 @@ input {
     margin-left: 10px;
     margin-right: 10px;
     font-size: .8em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav-left li {
+    float: left;
+}
+
+.top-nav-right li {
+    float: right;
+}
+
+a {
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    width: 15px;
+}
+
+#signin {
+    display: block;
+    background-color: blue;
+    color: white;
+}
+#signin:hover {
+    background-color: white;
+    color: black;
 }
